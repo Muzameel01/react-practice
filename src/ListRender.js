@@ -8,6 +8,7 @@
 import {getImageUrl} from "./utils";
 import { person } from "./data";
 
+
 export default function ListRender(){
      const chemist = person.filter((p)=>p.profession==="chemist");
      const everyOneElse= person.filter((p)=>p.profession!=="chemist")
